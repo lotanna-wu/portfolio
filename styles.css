@@ -1,0 +1,231 @@
+  :root {
+    --fg: #111;
+    --bg: #fafafa;
+    --accent: #0000ee;
+    --muted: #555;
+    --border: #ccc;
+    --max: 800px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--fg);
+    background: var(--bg);
+    padding: 3rem 1.5rem 6rem;
+    max-width: var(--max);
+    margin: 0 auto;
+  }
+
+  a { color: var(--accent); text-decoration: underline; }
+  a:visited { color: #551a8b; }
+  a:hover { text-decoration: none; }
+
+  
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2rem 0;
+  }
+
+  nav {
+    font-family: monospace;
+    font-size: 0.85rem;
+    margin-bottom: 3rem;
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  nav a:visited {
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  nav a:hover { color: var(--fg); text-decoration: underline; }
+
+  header { margin-bottom: 2.5rem; }
+
+  header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+  }
+
+  header .tagline {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+  }
+
+  header .links {
+    font-family: monospace;
+    font-size: 0.82rem;
+    margin-top: 0.6rem;
+  }
+
+  header .links a { margin-right: 1rem; }
+
+  section { margin-bottom: 2.5rem; }
+
+  section h2 {
+    font-size: 0.75rem;
+    font-family: monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-bottom: 1rem;
+  }
+
+  .entry { margin-bottom: 1.5rem; }
+
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .entry-title {
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+
+  .entry-date {
+    font-family: monospace;
+    font-size: 0.78rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .entry-sub {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.35rem;
+  }
+
+  .entry-body {
+    font-size: 0.9rem;
+  }
+
+  .entry-body ul {
+    padding-left: 1.2em;
+    margin-top: 0.2rem;
+  }
+
+  .entry-body li {
+    margin-bottom: 0.15rem;
+    font-size: 0.88rem;
+  }
+
+  .project { margin-bottom: 1.4rem; }
+
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+  }
+
+  .poject-name a {
+	text-decoration: none;
+	color: #111;
+  }
+
+  .project-name a:visited {
+	text-decoration:none;
+	color: #111;
+  }
+
+  .project-name {
+    font-weight: bold;
+    font-size: 0.95rem;
+  }
+
+  .project-year {
+    font-family: monospace;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+
+   .project-link {
+    	font-family: monospace;
+    	font-size: 0.78rem;
+  	}
+
+  .project-stack {
+    font-family: monospace;
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-bottom: 0.2rem;
+  }
+
+  .project-desc {
+    font-size: 0.88rem;
+  }
+
+  .project-desc ul {
+    padding-left: 1.2em;
+    margin-top: 0.4rem;
+  }
+
+  .project-desc li {
+    margin-bottom: 0.15rem;
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    gap: 0.3rem 1rem;
+    font-size: 0.88rem;
+  }
+
+  .skill-label {
+    font-family: monospace;
+    font-size: 0.78rem;
+    color: var(--muted);
+    padding-top: 0.15rem;
+  }
+
+  .project-screenshots {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .project-screenshots img {
+    width: calc(50% - 0.375rem);
+    min-width: 200px;
+    border: 1px solid var(--border);
+    display: block;
+  }
+
+  .awards-list { font-size: 0.9rem; }
+  .awards-list li { margin-bottom: 0.3rem; }
+
+  .about-text { font-size: 0.95rem; }
+
+  .about-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  footer {
+    font-family: monospace;
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin-top: 4rem;
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
+  }
