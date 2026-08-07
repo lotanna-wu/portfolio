@@ -40,12 +40,14 @@ header a:hover .tagline,
 
 .layout {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 32px;
 }
 
 #side-bar {
-  flex: 0 0 180px;
+  flex: 0 1 180px;
+  min-width: 12rem;
   padding-right: 50px;
 }
 
@@ -54,8 +56,27 @@ header a:hover .tagline,
 }
 
 main {
-  flex: 1;
+  flex: 1 1 300px;
   min-width: 0;
+}
+
+@media (max-width: 640px) {
+  .layout {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  #side-bar {
+    flex-basis: auto;
+    min-width: 0;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  main {
+    flex-basis: auto;
+    width: 100%;
+  }
 }
 
 a {
