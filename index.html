@@ -8,269 +8,52 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-
-  <div class="topbar">
+  <header class="topbar">
     <a href="mailto:l.c.okoli@wustl.edu">email</a> |
     <a href="https://github.com/lotanna-wu" target="_blank" rel="noopener">github</a> |
     <a href="https://devpost.com/lotanna-wu" target="_blank" rel="noopener">devpost</a> |
     <a href="https://linkedin.com/in/lotanna-okoli-b63a41307" target="_blank" rel="noopener">linkedin</a> |
+    <a href="https://lichess.org/@/lo-tanna" target="_blank" rel="noopener">lichess</a>
+  </header>
+
+  <div class="layout">
+    <aside id="side-bar">
+      <h1><a href="index.html">lotanna okoli <span class="tagline">software engineer, still figuring it out</span></a></h1>
+      <nav>
+        pages:<br>
+        <a href="professional/">&rsaquo; professional</a><br>
+        <a href="projects/">&rsaquo; projects/</a><br>
+        <a href="education.html">&rsaquo; education/</a><br>
+        <a href="random.html">&rsaquo; random/</a>
+      </nav>
+    </aside>
+
+    <main>
+      <hr>
+      <section id="about">
+        <h2>about/</h2>
+        <p>
+          i started programming on roblox studio because i thought i could make something better than the games roblox had to offer. i couldn't, but i decided i liked programming anyways so i started learning more languages and working on other things. my top languages are probablly C, C++, python, java, and JS/TS.
+        </p>
+
+        <p>
+          im currently studying computer science at washu. some of my favorite cs classes ive taken so far are intro to systems software (CSE 3601), operating systems (CSE 4202), and discrete math (CSE 2400).
+        </p>
+
+        <p>
+          outside of computers, i like to play basketball and chess. i also occasionally try to do calisthenics.
+        </p>
+
+        <p class="meta">
+          <em>focus</em> &mdash; systems programming, agentic systems, application development<br>
+          <em>current</em> &mdash; CS Research<br>
+          <em>base</em> &mdash; St. Louis / Kansas City<br>
+          <em>preference</em> &mdash; minimalist software, open source applications
+        </p>
+      </section>
+      <hr>
+      <p class="footer">lotanna okoli &mdash; <a href="mailto:l.c.okoli@wustl.edu">l.c.okoli@wustl.edu</a></p>
+    </main>
   </div>
-
-  <h1>lotanna okoli <span class="tagline">software engineer, still figuring it out</span></h1>
-
-  <p>
-    pages:<br>
-    &rsaquo; <a href="#about">about/</a><br>
-    &rsaquo; <a href="#experience">experience/</a><br>
-    &rsaquo; <a href="#projects">projects/</a><br>
-    &rsaquo; <a href="#education">education/</a><br>
-    &rsaquo; <a href="#skills">skills/</a><br>
-    &rsaquo; <a href="#awards">awards/</a>
-  </p>
-
-  <hr>
-
-  <section id="about">
-    <h2>about/</h2>
-    <p>
-      I'm a sophomore at <strong>Washington University in St. Louis</strong> studying Computer Science.
-      I like building software that rewards technical depth &mdash; backend services, desktop apps,
-      developer tools, and AI workflows that need real structure. Somewhere between practical product
-      engineering and systems curiosity.
-    </p>
-    <p class="meta">
-      <em>focus</em> &mdash; systems programming, AI applications, product-minded engineering<br>
-      <em>current</em> &mdash; CS Research, Index<br>
-      <em>base</em> &mdash; St. Louis / Kansas City<br>
-      <em>preference</em> &mdash; minimalist software, strong internals, open source applications
-    </p>
-  </section>
-
-  <hr>
-    <section id="education">
-    <h2>education/</h2>
-
-    <h3>Washington University in St. Louis <span class="meta">&mdash; Aug. 2024 &ndash; May 2028</span></h3>
-    <p>B.S. Computer Science, McKelvey School of Engineering</p>
-    <p>
-      Coursework: Data Structures &amp; Algorithms, Digital Logic &amp; Computer Design, Object-Oriented
-      Programming in C++, Parallel and Concurrent Programming, Operating Systems.
-    </p>
-
-    <h3>Ewing Marion Kauffman School <span class="meta">&mdash; Aug. 2020 &ndash; May 2024</span></h3>
-    <p>Weighted GPA: 4.80 &mdash; Summa Cum Laude, Salutatorian</p>
-  </section>
-  <hr>
-
-  <section id="experience">
-    <h2>experience/</h2>
-
-    <h3>Full Stack Software Engineering Intern <span class="meta">&mdash; ChaingeSTL, St. Louis, MO &mdash; May 2025 &ndash; Aug. 2025</span></h3>
-    <p>
-      ChaingeSTL is a nonprofit-focused platform connecting organizations with volunteers and donors in the
-      St. Louis area. Over the summer I owned the backend end-to-end, building an Express.js + MongoDB server
-      from scratch and designing the data models for organizations, events, and users.
-    </p>
-    <p>
-      One of the more interesting challenges was the authentication system. I implemented Google SSO alongside
-      traditional email/password login, including a full email verification flow, which meant thinking carefully
-      about edge cases like credential conflicts and session management.
-    </p>
-    <p>
-      On the product side, I built out an event management system that lets nonprofits create and manage sign-up
-      events, as well as dynamic organization pages and a browsable index designed to make it easier for people
-      to discover and engage with local nonprofits.
-    </p>
-
-    <h3>Full Stack Developer <span class="meta">&mdash; WashU Satellite Ground Station and Controls, St. Louis, MO &mdash; Aug. 2024 &ndash; Aug. 2025</span></h3>
-    <ul>
-      <li>Built UI and communication layer between ground station and satellite using TypeScript and Next.js.</li>
-      <li>Implemented satellite telemetry data retrieval and visualization on a web-based dashboard.</li>
-    </ul>
-
-    <h3>Web Development Intern <span class="meta">&mdash; WeCode KC, Kansas City, MO &mdash; June 2023 &ndash; Aug. 2024</span></h3>
-    <p>
-      WeCode KC is a nonprofit coding education organization in Kansas City. I started there the summer before
-      my senior year of high school, building full-stack client projects in React and Node.js, including a
-      platform that let hundreds of students register for, attend, and track their progress through coding classes.
-    </p>
-    <p>
-      Alongside the engineering work, I also taught Roblox Studio and Scratch to over 100 kids aged 8&ndash;15.
-      Teaching forced me to develop a kind of clarity I didn't get from coding alone.
-    </p>
-  </section>
-
-  <hr>
-
-  <section id="projects">
-    <h2>projects/</h2>
-
-    <h3>ChronoPy <span class="meta">&mdash; 2025</span></h3>
-    <p class="stackline">Python, PySide6, llama-cpp-python, Local LLM</p>
-    <p>
-      Desktop application enabling a local LLM to autonomously complete tasks on the user's device with zero
-      external dependencies. Features a custom tool-calling interface, a multi-step memory system, and an
-      embedded model running fully offline via llama-cpp-python.
-    </p>
-
-    <h3><a href="https://github.com/lotanna-wu/hack-washu" target="_blank" rel="noopener">Geometry Slash</a> <span class="meta">&mdash; 2024</span></h3>
-    <p class="stackline">Python, Pygame, OpenCV, MediaPipe &mdash; Hack WashU</p>
-    <p>
-      Computer-vision game using hand-tracking to control cursor movement in a fruit-ninja style experience.
-      Won 1st place in the Emerging category at WashU's premier hackathon.
-    </p>
-    <ul>
-      <li>Used MediaPipe Hands to detect and track 21 hand landmarks in real time via webcam, mapping index-finger tip coordinates to in-game movement inputs at ~30 fps.</li>
-      <li>Integrated OpenCV for frame capture, preprocessing, and visual feedback overlay, ensuring robust performance under varying lighting conditions.</li>
-      <li>Led the development on a four person team, designing the core game infrastructure, as well as the computer vision components.</li>
-      <li>Presented the live prototype to judges; awarded 1st place in the Emerging Track at Hack WashU 2024.</li>
-    </ul>
-    <p class="imgs"><img src="images/hack-washu.png" alt="Geometry Slash screenshot"></p>
-
-    <h3>Eva &mdash; EMT Virtual Assistant <span class="meta">&mdash; 2026 &mdash; <a href="https://devpost.com/software/eva-emt-virtual-assistant" target="_blank" rel="noopener">devpost</a> / <a href="https://github.com/koji0701/devfest-2026" target="_blank" rel="noopener">github</a></span></h3>
-    <p class="stackline">Kotlin, Android Studio, Samsung Galaxy XR, Python, FastAPI, Gemini, ElevenLabs, Supabase &mdash; Google DevFest Hackathon</p>
-    <p>
-      XR voice assistant for EMTs that turns field encounter video, isolated speech, and patient context into
-      an electronic Patient Care Report, then uses browser automation to fill existing hospital forms. Winner
-      of Best Use of ElevenLabs at the Google DevFest Hackathon.
-    </p>
-    <ul>
-      <li>Built the Samsung Galaxy XR app in Kotlin with pinch gestures, Google ASR/TTS, and the "Eva" voice command flow for hands-free EMT documentation.</li>
-      <li>Designed a video-processing pipeline using ElevenLabs voice isolation, diarized transcription, and Gemini visual/language inference to generate structured ePCR reports.</li>
-      <li>Implemented facial recognition with stored vector embeddings so EMTs can retrieve simulated opt-in MyChart details like medications, allergies, and emergency contacts.</li>
-      <li>Used Browser Use to auto-fill mock hospital ePCR forms, demonstrating integration with existing hospital workflows while preserving EMT review/edit control.</li>
-    </ul>
-
-    <h3><a href="https://github.com/Intern-X/WebApp" target="_blank" rel="noopener">Intern X</a> <span class="meta">&mdash; 2025</span></h3>
-    <p class="stackline">JavaScript, React, Llama AI, Hunter.io &mdash; WashU Meta 8VC Hackathon</p>
-    <p>
-      Platform connecting students with recruiters and alumni at target companies. Generates intelligent cold
-      emails using Llama API and identifies contacts via Hunter.io. 2nd place overall.
-    </p>
-
-    <h3><a href="https://github.com/lotanna-wu/chip8-emulator" target="_blank" rel="noopener">CHIP-8 Emulator</a> <span class="meta">&mdash; 2025</span></h3>
-    <p class="stackline">C, SDL2, Emulator Development, Low-Level Systems</p>
-    <p>
-      CHIP-8 emulator written in C with SDL2 for video and input, supporting classic ROMs with a 64x32
-      monochrome display and 60 Hz timers.
-    </p>
-    <ul>
-      <li>Implements the core CPU and full Chip-8 instruction set with opcode decode/execute.</li>
-      <li>SDL2-backed renderer with display scaling plus mapped hex keypad input.</li>
-      <li>Verbose mode (<code>-v</code>/<code>--verbose</code>) to dump CPU state each cycle for debugging.</li>
-    </ul>
-    <p class="imgs">
-      <img src="images/pong-chip8.png" alt="CHIP-8 Pong running in the emulator">
-      <img src="images/slipperyslope-chip8.png" alt="CHIP-8 Slippery Slope running in the emulator">
-      <img src="images/chip8-debug.png" alt="CHIP-8 verbose debug output">
-    </p>
-
-    <h3>mp3qt <span class="meta">&mdash; 2026 &mdash; <a href="https://github.com/lotanna-wu/mp3qt" target="_blank" rel="noopener">github</a></span></h3>
-    <p class="stackline">Python, PySide6 / Qt</p>
-    <p>
-      A lightweight desktop music player built with Python and Qt. Supports local MP3 playlist management with
-      folder browsing, live search filtering, album art display, shuffle, and volume control. Also includes a
-      URL downloader for pulling audio from YouTube, SoundCloud, and similar sources directly into your library.
-      Ships with multiple themes, and allows you to create/import custom themes.
-    </p>
-    <p class="imgs">
-      <img src="images/mp3qt-cloud.png" alt="mp3qt cloud theme screenshot">
-      <img src="images/mp3qt-default.png" alt="mp3qt default theme screenshot">
-    </p>
-
-    <h3><a href="https://multiplayersnake-c555.onrender.com/" target="_blank" rel="noopener">Multiplayer Snake</a> <span class="meta">&mdash; 2025 &mdash; <a href="https://github.com/lotanna-wu/multiplayersnake" target="_blank" rel="noopener">github</a></span></h3>
-    <p class="stackline">JavaScript, WebSockets</p>
-    <p>
-      Real-time two-player snake game with a room-based matchmaking system. Players can create or join named
-      rooms, toggle border wrapping, and make rooms public. Includes live score tracking, a ready-up system,
-      and an in-game chat &mdash; all synced over WebSockets.
-    </p>
-    <p class="imgs">
-      <img src="images/multiplayersnake-lobby.png" alt="Multiplayer Snake lobby and room creation screen">
-      <img src="images/multiplayersnake-game.png" alt="Multiplayer Snake in-game view with score and chat">
-    </p>
-
-    <h3>DogTag <span class="meta">&mdash; 2024-2025</span></h3>
-    <p class="stackline">React Native, FastAPI, Product Design, Web scraping, Geolocation APIs</p>
-    <p>
-      Every year millions of pets go missing in the United States, yet the process for reuniting them with
-      owners is fragmented across paper flyers, Facebook groups, and disconnected shelter databases. DogTag is
-      a mobile platform designed to close that gap. During this project my cofounder,
-      <a href="https://ojiefoh.com" target="_blank" rel="noopener">Oseremen Ojiefoh</a>, and I:
-    </p>
-    <ul>
-      <li>Designed core product flow: photo-based pet reporting, automated geofenced alerts to nearby shelters and volunteers, and a secure in-app messaging layer between owners and rescuers.</li>
-      <li>Scraped and normalized public shelter databases to seed a live lost/found index, significantly reducing duplicate manual entry for users.</li>
-      <li>Conducted structured customer discovery interviews with 45 pet owners and 20 shelters/rescue volunteers, using findings to prioritize MVP features and de-scope lower-value flows.</li>
-      <li>Reached the finalist round of the 2024 Skandalaris Venture Competition, pitching the business model, market size, and technical architecture to a panel of investors and faculty judges.</li>
-    </ul>
-
-    <h3>Index &mdash; AI-Powered Handwriting Tutor <span class="meta">&mdash; Fall 2025 &ndash; present</span></h3>
-    <p class="stackline">Handwriting OCR, LLMs, GPT-4o, React Native, Swift, Mobile UI/UX, ExpressJS, Product Prototyping, Skandalaris Hackathon, Ideabounce Open Mic</p>
-    <p>
-      A common frustration in math and science education is the gap between a student's written work and
-      meaningful, immediate feedback. Index addresses this by turning a phone or tablet into a real-time tutor
-      that reads handwritten problem sets.
-    </p>
-    <ul>
-      <li>Built the initial MVP during the Skandalaris Hackathon (Fall 2025), validating the core workflow from handwritten capture to AI-generated feedback.</li>
-      <li>Competed in Ideabounce's Open Mic category (Fall 2025), networked with judges, and secured a MacBook donation to support ongoing development.</li>
-      <li>Originally enrolled in the Skandalaris Venture Competition, then intentionally stepped back to refocus on customer discovery and problem selection before scaling engineering effort.</li>
-      <li>After the donated MacBook proved too old for practical native iOS development, we purchased a newer used MacBook to unblock the product roadmap.</li>
-      <li>Took Index through Olin's entrepreneurship ecosystem to refine customer discovery, product positioning, and go-to-market framing.</li>
-      <li>Current progress direction: restarting intentionally from scratch, defining critical hypotheses first, then running short customer-discovery test cycles to shape differentiated MVP features for underserved student segments.</li>
-      <li>Active learning hypothesis set includes: whether students want hint-first AI walkthroughs, whether handwriting remains preferred for step-based STEM work, and whether real-time nudge UX is preferred over existing note-taking and AI study tools.</li>
-      <li>Near-term validation plan: run quick Figma click-demos and controlled user tests, collect survey outcomes across target demographics, and iterate toward a minimal-but-rich MVP before native iOS build-out.</li>
-      <li>Building an OCR + LLM pipeline that ingests a photo of handwritten student work, identifies the problem type, traces the student's steps, and returns targeted step-by-step guidance rather than just the answer.</li>
-      <li>Designing an immersive digital-notebook UI modeled on GoodNotes and Notability, prioritizing low-latency ink rendering and intuitive annotation gestures.</li>
-      <li>Evaluating cross-platform frameworks (Flutter, React Native, Swift/SwiftUI) for performance trade-offs in ink latency, camera access, and on-device ML inference.</li>
-      <li>Prototyping the feedback engine with GPT-4o vision for early validation before fine-tuning a smaller model for cost and latency at scale.</li>
-    </ul>
-    <p class="imgs">
-      <img src="images/index-svc.png" alt="Index service overview">
-      <img src="images/index-svc-1.png" alt="Index service detail view">
-    </p>
-
-    <h3><a href="https://okoli.dev">Lotanna Okoli</a> <span class="meta">&mdash; 2025</span></h3>
-    <p class="stackline">HTML, CSS</p>
-    <p>This page. Built with HTML, CSS, and JS.</p>
-    <p class="imgs">
-      <img src="images/portfolio.png" alt="Portfolio screenshot">
-      <img src="images/portfolio-1.png" alt="Portfolio screenshot">
-    </p>
-  </section>
-
-  <hr>
-
-  <section id="skills">
-    <h2>skills/</h2>
-    <p>
-      <em>languages</em> &mdash; Java, Python, C/C++, JavaScript, TypeScript, HTML/CSS, SQL<br>
-      <em>frameworks</em> &mdash; React, Node.js, Next.js, Express.js, React Native, Flask, OpenCV, FastAPI, Tailwind CSS, Qt, ImGUI, Pygame<br>
-      <em>databases</em> &mdash; Supabase, MongoDB, PostgreSQL, WebSockets, Google SSO, OAuth<br>
-      <em>tools</em> &mdash; Git, AWS, ngrok, npm, VS Code, Salesforce, MediaPipe<br>
-      <em>apis &amp; libs</em> &mdash; Gemini AI, Llama AI, Hunter.io, Google NLP, Google TTS, pandas, NumPy
-    </p>
-  </section>
-
-  <hr>
-
-  <section id="awards">
-    <h2>awards/</h2>
-    <ul>
-      <li>2nd Place Overall &mdash; WashU Meta 8VC Hackathon (2025)</li>
-      <li>Winner, Best Use of ElevenLabs &mdash; Google DevFest Hackathon (2026)</li>
-      <li>Skandalaris Venture Competition Finalist (2024)</li>
-      <li>1st Place, Emerging Category &mdash; Hack WashU (2024)</li>
-      <li>AP Scholar with Distinction Award</li>
-      <li>National African American Recognition Program Award</li>
-      <li>Summa Cum Laude, Salutatorian &mdash; Kauffman School (2024)</li>
-    </ul>
-  </section>
-
-  <hr>
-
-  <p class="footer">lotanna okoli &mdash; <a href="mailto:l.c.okoli@wustl.edu">l.c.okoli@wustl.edu</a></p>
-
 </body>
 </html>
