@@ -1,0 +1,187 @@
+html {
+  background: #5c1518;
+}
+
+body {
+  background: #5c1518;
+  color: #f2e6d8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  max-width: 1100px;
+  margin: 0 0;
+  padding: 0px 16px 64px;
+}
+
+header a,
+#side-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 a {
+  display: inline-block;
+}
+
+header a:hover,
+#side-bar a:hover {
+  background-color: #ffffff;
+  color: #5c1518;
+}
+
+header a:hover .tagline,
+#side-bar a:hover .tagline {
+  color: #5c1518;
+}
+
+#side-bar nav a {
+  color: #eab0ac;
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+#side-bar {
+  flex: 0 1 180px;
+  min-width: 12rem;
+  padding-right: 50px;
+}
+
+#side-bar nav {
+  margin-top: 16px;
+}
+
+main {
+  flex: 1 1 300px;
+  min-width: 0;
+}
+
+@media (max-width: 640px) {
+  .layout {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  #side-bar {
+    flex-basis: auto;
+    min-width: 0;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  main {
+    flex-basis: auto;
+    width: 100%;
+  }
+}
+
+a {
+  color: #eab0ac;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ffffff;
+  color: #5c1518;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(242, 230, 216, 0.25);
+  margin: 28px 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 8px 0 4px;
+}
+
+h1 .tagline {
+  display: block;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: normal;
+  color: #f2e6d8;
+  margin-top: 4px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0 0 12px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 20px 0 4px;
+}
+
+h3 .meta,
+p.meta,
+.meta {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+  color: #d9a9a5;
+}
+
+p.stackline {
+  font-size: 14px;
+  color: #d9a9a5;
+  margin: 0 0 8px;
+}
+
+p, ul {
+  margin: 0 0 14px;
+}
+
+ul {
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+.project-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.project-list li {
+  margin-bottom: 0;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+
+.topbar {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.topbar a {
+  color: #eab0ac;
+}
+
+p.imgs {
+  margin: 12px 0 14px;
+}
+
+p.imgs img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid rgba(242, 230, 216, 0.35);
+  margin: 0 8px 8px 0;
+  vertical-align: top;
+}
+
+.footer {
+  font-size: 14px;
+  color: #d9a9a5;
+}
