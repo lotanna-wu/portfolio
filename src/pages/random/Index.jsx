@@ -1,4 +1,5 @@
 import Layout from '../../components/Layout'
+import { Link } from 'react-router-dom'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export function RandomIndex() {
@@ -8,7 +9,9 @@ export function RandomIndex() {
     <Layout section="random">
       <section id="random">
         <h2>/ random</h2>
-        <p>WIP</p>
+        <ul className="project-list">
+          <li><Link to="/random/povray.html">pov-ray</Link></li>
+        </ul>
       </section>
     </Layout>
   )
