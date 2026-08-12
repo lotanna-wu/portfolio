@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function WashuSatellite() {
-  usePageMeta('lotanna okoli — washu satellite', 'Lotanna Okoli — WashU Satellite Ground Station and Controls')
+  usePageMeta('professional - washu-satellite', 'WashU Satellite Ground Station and Controls')
 
   return (
     <Layout section="professional" activeItem="washu-satellite">

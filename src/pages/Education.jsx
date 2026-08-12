@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import { usePageMeta } from '../hooks/usePageMeta'
 
 export default function Education() {
-  usePageMeta('lotanna okoli — education', 'Lotanna Okoli — education')
+  usePageMeta('education', 'education')
 
   return (
     <Layout section="education">

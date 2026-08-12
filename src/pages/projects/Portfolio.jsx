@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function Portfolio() {
-  usePageMeta('lotanna okoli — portfolio', 'Lotanna Okoli — this site')
+  usePageMeta('projects - portfolio', 'this site')
 
   return (
     <Layout section="projects" activeItem="portfolio">

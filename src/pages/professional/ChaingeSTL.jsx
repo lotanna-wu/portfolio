@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function ChaingeSTL() {
-  usePageMeta('lotanna okoli — chaingestl', 'Lotanna Okoli — ChaingeSTL')
+  usePageMeta('professional - chaingestl', 'ChaingeSTL')
 
   return (
     <Layout section="professional" activeItem="chaingestl">

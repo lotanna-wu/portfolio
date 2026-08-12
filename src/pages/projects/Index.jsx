@@ -3,7 +3,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export function ProjectsIndex() {
-  usePageMeta('lotanna okoli — projects', 'Lotanna Okoli — projects')
+usePageMeta('projects', 'projects')
 
   return (
     <Layout section="projects">

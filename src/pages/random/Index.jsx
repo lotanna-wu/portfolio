@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export function RandomIndex() {
-  usePageMeta('lotanna okoli — random', 'Lotanna Okoli — random updates')
+  usePageMeta('random', 'random updates')
 
   return (
     <Layout section="random">

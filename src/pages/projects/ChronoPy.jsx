@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function ChronoPy() {
-  usePageMeta('lotanna okoli — chronopy', 'Lotanna Okoli — ChronoPy')
+  usePageMeta('projects - chronopy', 'ChronoPy')
 
   return (
     <Layout section="projects" activeItem="chronopy">

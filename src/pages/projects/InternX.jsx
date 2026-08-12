@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function InternX() {
-  usePageMeta('lotanna okoli — intern x', 'Lotanna Okoli — Intern X')
+  usePageMeta('projects - internx', 'Intern X')
 
   return (
     <Layout section="projects" activeItem="internx">

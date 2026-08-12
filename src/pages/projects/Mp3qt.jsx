@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function Mp3qt() {
-  usePageMeta('lotanna okoli — mp3qt', 'Lotanna Okoli — mp3qt')
+  usePageMeta('projects - mp3qt', 'mp3qt')
 
   return (
     <Layout section="projects" activeItem="mp3qt">

@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function Dogtag() {
-  usePageMeta('lotanna okoli — dogtag', 'Lotanna Okoli — DogTag')
+  usePageMeta('projects - dogtag', 'DogTag')
 
   return (
     <Layout section="projects" activeItem="dogtag">

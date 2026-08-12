@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function Eva() {
-  usePageMeta('lotanna okoli — eva', 'Lotanna Okoli — Eva, EMT Virtual Assistant')
+  usePageMeta('projects - eva', 'Eva, EMT Virtual Assistant')
 
   return (
     <Layout section="projects" activeItem="eva">

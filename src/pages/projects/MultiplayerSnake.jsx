@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function MultiplayerSnake() {
-  usePageMeta('lotanna okoli — multiplayer snake', 'Lotanna Okoli — Multiplayer Snake')
+  usePageMeta('projects - multiplayer-snake', 'Multiplayer Snake')
 
   return (
     <Layout section="projects" activeItem="multiplayer-snake">

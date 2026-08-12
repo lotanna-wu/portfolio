@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function WeCodeKC() {
-  usePageMeta('lotanna okoli — wecode kc', 'Lotanna Okoli — WeCode KC')
+  usePageMeta('professional - wecode-kc', 'WeCode KC')
 
   return (
     <Layout section="professional" activeItem="wecode-kc">

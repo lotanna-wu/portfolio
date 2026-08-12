@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function POVRay() {
-  usePageMeta('lotanna okoli — pov ray', 'Lotanna Okoli — POV-Ray projects')
+  usePageMeta('random - pov-ray', 'POV-Ray projects')
 
   return (
     <Layout section="random" activeItem="povray">

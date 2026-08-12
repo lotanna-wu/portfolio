@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function Chip8() {
-  usePageMeta('lotanna okoli — chip-8 emulator', 'Lotanna Okoli — CHIP-8 Emulator')
+  usePageMeta('projects - chip8', 'CHIP-8 Emulator')
 
   return (
     <Layout section="projects" activeItem="chip8">

@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function IndexMobile() {
-  usePageMeta('lotanna okoli — index (ai tutor)', 'Lotanna Okoli — Index, AI-Powered Handwriting Tutor')
+  usePageMeta('projects - index', 'Index, AI-Powered Handwriting Tutor')
 
   return (
     <Layout section="projects" activeItem="index-mobile">

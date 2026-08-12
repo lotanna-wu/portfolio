@@ -2,7 +2,7 @@ import Layout from '../../components/Layout'
 import { usePageMeta } from '../../hooks/usePageMeta'
 
 export default function GeometrySlash() {
-  usePageMeta('lotanna okoli — geometry slash', 'Lotanna Okoli — Geometry Slash')
+  usePageMeta('projects - geometry-slash', 'Geometry Slash')
 
   return (
     <Layout section="projects" activeItem="geometry-slash">

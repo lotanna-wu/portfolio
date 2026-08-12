@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import { usePageMeta } from '../hooks/usePageMeta'
 
 export default function Home() {
-  usePageMeta('Lotanna Okoli', 'Lotanna Okoli — personal page')
+  usePageMeta('lotanna okoli', 'home')
 
   return (
     <Layout section="home">

@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 import { usePageMeta } from '../hooks/usePageMeta'
 
 export default function NotFound() {
-  usePageMeta('lotanna okoli — 404', 'Lotanna Okoli — page not found')
+  usePageMeta('404', 'page not found')
 
   return (
     <Layout section="home">
